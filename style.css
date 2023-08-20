@@ -50,12 +50,12 @@ hr {
     grid-row: 30px;
 }
 
-.plaer {
+.player {
     display: flex;
     align-items: center;
 }
 
-.plaer img {
+.player img {
     width: 56px;
     height: 56px;
 }
@@ -70,7 +70,8 @@ hr {
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid row-gap: 26px;
+    /* grid row-gap: 26px; */
+     row-gap: 26px;
 }
 
 .blog {
@@ -105,7 +106,8 @@ hr {
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid column-gap: 24px;
+    /* grid column-gap: 24px; */
+    column-gap: 24px;
 
 }
 
@@ -149,6 +151,7 @@ hr {
 }
 
 /* Media quaries */
+
 /* Mobile devices */
 @media only screen and (max-width:688px) {
     .container {
@@ -161,7 +164,7 @@ hr {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .plaer,
+    .player,
     .blog {
         flex-direction: column;
     }
